@@ -51,7 +51,7 @@ const Hero = () => {
       </div>
       <div className={classes.buttonGroup}>
         <GradientButton>Schedule a Demo</GradientButton>
-        <SecondaryButton>Sign up for free</SecondaryButton>
+        <SecondaryButton size="lg">Sign up for free</SecondaryButton>
       </div>
     </section>
   );

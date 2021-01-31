@@ -25,7 +25,7 @@ const Stack = () => {
   const classes = useStyles();
   return (
     <Grid xs={12} item container>
-      <Grid xs={12} sm={8} className={classes.headTitle}>
+      <Grid item xs={12} sm={8} className={classes.headTitle}>
         <div>
           <h1>Works With Your Revenue Management Stack</h1>
           <p>

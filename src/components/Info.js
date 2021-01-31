@@ -1,6 +1,7 @@
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import CheckIcon from "@material-ui/icons/Check";
+import SecondaryButton from "./SecondaryButton";
 import React from "react";
 
 const useStyles = makeStyles((theme) => ({
@@ -63,6 +64,9 @@ const Info = ({ src, orientation, ...props }) => {
               {props.pointers[3]}
             </Grid>
           </Grid>
+          <Grid item xs={12} md={6} className={classes.children}>
+            <SecondaryButton size="sm" />
+          </Grid>
         </Grid>
         <Grid item xs={12} md={6} className={classes.children}>
           <img src={src} alt="infographic" />
@@ -106,6 +110,9 @@ const Info = ({ src, orientation, ...props }) => {
               <CheckIcon className={classes.icon}></CheckIcon>
               {props.pointers[3]}
             </Grid>
+          </Grid>
+          <Grid item xs={12} md={6} className={classes.children}>
+            <SecondaryButton size="sm" />
           </Grid>
         </Grid>
       </Grid>

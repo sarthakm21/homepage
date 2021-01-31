@@ -17,13 +17,23 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "white",
     },
   },
+  buttonsm: {
+    fontWeight: "500",
+    fontSize: "10px",
+    textTransform: "none",
+    padding: "0.2rem 0.5rem",
+  },
 }));
 
-const SecondaryButton = ({ children }) => {
+const SecondaryButton = ({ children, size }) => {
   const classes = useStyles();
   return (
-    <Button className={classes.button}>
-      {children}
+    <Button
+      className={
+        size === "lg" ? classes.button : `${classes.button} ${classes.buttonsm}`
+      }
+    >
+      {children ? children : "Learn More"}
       <ArrowForwardIcon />
     </Button>
   );
