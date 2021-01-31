@@ -21,7 +21,10 @@ const useStyle = makeStyles(() => ({
     maxWidth: "28rem",
   },
   buttonGroup: {
+    margin: "0 2rem",
     padding: "2rem",
+    display: "flex",
+    justifyContent: "space-evenly",
   },
 }));
 
@@ -50,8 +53,12 @@ const Hero = () => {
         recurring revenue.
       </div>
       <div className={classes.buttonGroup}>
-        <GradientButton>Schedule a Demo</GradientButton>
-        <SecondaryButton size="lg">Sign up for free</SecondaryButton>
+        <GradientButton className={classes.button}>
+          Schedule a Demo
+        </GradientButton>
+        <SecondaryButton className={classes.button} size="lg">
+          Sign up for free
+        </SecondaryButton>
       </div>
     </section>
   );
