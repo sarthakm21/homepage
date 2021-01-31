@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   nav: {
     display: "flex",
     alignContent: "center",
-    padding: "1rem 0",
+    padding: ".5rem 0",
     backgroundColor: "#fafafa",
     color: "black",
     boxShadow: "0 4px 16px 0 rgb(0 0 0 / 9%)",

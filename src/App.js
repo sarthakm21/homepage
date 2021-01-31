@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import SvgAnimation from "./components/SvgAnimation";
-import SlickSlider from "./components/SlickSlider";
 import Info from "./components/Info";
 import Lower from "./components/Lower";
 
@@ -23,9 +22,6 @@ const App = () => {
         <Container>
           <SvgAnimation />
         </Container>
-      </Grid>
-      <Grid item xs={12}>
-        <SlickSlider />
       </Grid>
       <Info
         src="https://webstatic.chargebee.com/assets/web/351/images/home/lemon/recurring-billing-graphic.svg"
