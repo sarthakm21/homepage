@@ -21,7 +21,7 @@ const useStyle = makeStyles(() => ({
     maxWidth: "28rem",
   },
   buttonGroup: {
-    margin: "0 2rem",
+    margin: "0 8rem",
     padding: "2rem",
     display: "flex",
     justifyContent: "space-evenly",
